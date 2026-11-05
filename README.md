@@ -24,12 +24,12 @@ npm run preview
 
 This implementation belongs on `feat/professional-portfolio`. Open a pull request into `main` and review the content and design before merging. Pull requests run `.github/workflows/ci.yml`, which builds and uploads a downloadable `portfolio-review-build` artifact. No deployment runs on pull requests or pushes.
 
-The current deployment workflow **only runs manually on main**. No site is published by this change alone.
+The new deployment workflow **only runs manually on main**. No site is published by this review branch. Existing repository Pages settings are separate from these workflow triggers: if the source is **Deploy from a branch**, change it to **GitHub Actions before merging** to prevent a legacy Pages build from publishing the source tree. An earlier legacy Pages run was observed; no repository settings were changed in this task.
 
 ## GitHub Pages deployment (after approval)
 
-1. Review and merge the pull request into `main` when ready.
-2. In the repository, select **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+1. In the repository, select **Settings → Pages → Build and deployment → Source → GitHub Actions** before merging.
+2. Review and merge the pull request into `main` when ready.
 3. Open **Actions → Deploy to GitHub Pages → Run workflow** and choose `main`.
 4. After the action succeeds, the site is available at `https://emon-ashraf.github.io/`.
 
