@@ -46,13 +46,11 @@ If you later want automatic publication after approved merges, add `push: { bran
 - `public/`: bundled images, favicon, social card, sitemap, robots file, and downloadable documents.
 - `docs/CONTENT-SOURCES.md`: factual evidence, scope decisions, and asset provenance.
 
-### Add the actual CV
+### Update the CV
 
-The supplied `public/documents/cv-placeholder.pdf` is explicitly a placeholder, including inside the PDF. It is not presented as the actual CV.
+The owner's uploaded `CV_Ashraful_islam.pdf` is bundled unchanged as `public/documents/md-ashraful-islam-cv.pdf`. Both CV links use this file; the placeholder PDF has been removed.
 
-1. Add the approved PDF as `public/documents/md-ashraful-islam-cv.pdf`.
-2. Update `profile.cv` in `src/content.ts` to `{ href: '/documents/md-ashraful-islam-cv.pdf', label: 'Download CV', ready: true }`.
-3. Update the Contact CV subtitle in `src/App.tsx` to `Download PDF` and remove the placeholder file when no longer needed.
+To update it later, replace that PDF with the approved version. The link and label are configured in `profile.cv` in `src/content.ts`.
 
 ### Replace screenshot placeholders
 

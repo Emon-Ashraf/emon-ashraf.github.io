@@ -4,11 +4,10 @@ export const profile = {
   email: "emon78697@gmail.com",
   github: "https://github.com/Emon-Ashraf",
   linkedin: "https://www.linkedin.com/in/md-ashraful-islam-emon",
-  // Replace with /documents/md-ashraful-islam-cv.pdf when an approved CV is available.
   cv: {
-    href: "/documents/cv-placeholder.pdf",
-    label: "Download CV placeholder",
-    ready: false,
+    href: "/documents/md-ashraful-islam-cv.pdf",
+    label: "Download CV",
+    ready: true,
   },
 };
 

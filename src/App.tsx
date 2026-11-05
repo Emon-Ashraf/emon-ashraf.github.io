@@ -679,7 +679,7 @@ function App() {
                 <span>
                   <ArrowDownToLine size={20} aria-hidden="true" />
                   <span>
-                    Curriculum vitae<small>Download placeholder PDF</small>
+                    Curriculum vitae<small>Download PDF</small>
                   </span>
                 </span>
                 <ArrowDown size={16} aria-hidden="true" />

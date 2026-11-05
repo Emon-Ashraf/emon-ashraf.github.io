@@ -56,6 +56,6 @@ The README describes a planned broader platform (including backend, delivery rol
 
 ## Remaining assets
 
-- Actual CV PDF: not provided; a downloadable PDF explicitly marked as a placeholder is bundled.
+- Actual CV PDF: owner-uploaded `CV_Ashraful_islam.pdf`, bundled byte-for-byte as `public/documents/md-ashraful-islam-cv.pdf`. Both CV links use the actual PDF; the placeholder file was removed. No other website content was changed based on the attachment.
 - Team Work Tracker and HalFood screenshots: to be provided.
 - Browser review: required before publication; supported browser-control tools were unavailable in this session.
